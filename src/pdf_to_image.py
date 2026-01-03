@@ -1,5 +1,3 @@
-# src/pdf_to_image.py
-
 import os
 from pdf2image import convert_from_path
 
