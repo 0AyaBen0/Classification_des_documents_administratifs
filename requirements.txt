@@ -1,4 +1,6 @@
-pillow
 pdf2image
 opencv-python
-pytesseract
+numpy
+torch
+torchvision
+Pillow

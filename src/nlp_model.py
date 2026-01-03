@@ -17,12 +17,13 @@ KEYWORDS = {
     "releve_bancaire": [
         "banque", "compte", "solde", "debit", "débit",
         "credit", "crédit", "operation", "opération", "releve",
-        "relevé", "bancaire", "bank", "rib", "iban", "bic",
-        "numero", "numéro", "identite", "identité", "reference"
+        "relevé", "bank", "rib", "iban", "bic",
+        "numero", "numéro", "identite", "identité"
     ],
     "facture_electricite": [
         "electricite", "électricité", "kwh", "kw h",
-        "consommation", "abonnement", "puissance"
+        "consommation", "abonnement", "puissance", "kVA",
+        "compteur", "facture"
     ],
     "facture_eau": [
         "eau", "m3", "m³", "consommation", "index", "facture"
@@ -96,8 +97,7 @@ def classify_text(text):
 # TEST
 # ------------------------------------------------------------------
 if __name__ == "__main__":
-    # 🔴 CHANGE THIS PATH TO A REAL IMAGE
-    test_image = "data/preprocessed_images/document_employeur/8/page_1.jpg"
+    test_image = "data/preprocessed_images/facture_electricite/9/page_1.jpg"
 
     if not os.path.exists(test_image):
         print("[ERROR] Test image not found.")
