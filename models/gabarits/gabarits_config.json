@@ -1,0 +1,128 @@
+{
+  "identite": {
+    "description": "Pièce d'identité (CNIE - Recto et Verso)",
+    "features": {
+      "aspect_ratio": {
+        "min": 0.6,
+        "max": 0.7,
+        "weight": 0.3,
+        "description": "Ratio largeur/hauteur caractéristique d'une carte d'identité"
+      },
+      "photo_detection": {
+        "required": true,
+        "weight": 0.4,
+        "description": "Présence d'une zone photo"
+      },
+      "text_density": {
+        "min": 0.15,
+        "max": 0.35,
+        "weight": 0.2,
+        "description": "Densité de texte moyenne"
+      },
+      "security_elements": {
+        "weight": 0.1,
+        "description": "Éléments de sécurité (hologrammes, filigranes)"
+      }
+    },
+    "keywords": ["identité", "nationalité", "naissance", "numéro", "carte"]
+  },
+  "releve_bancaire": {
+    "description": "Relevé bancaire (Différentes Banques)",
+    "features": {
+      "tabular_structure": {
+        "required": true,
+        "weight": 0.4,
+        "description": "Structure tabulaire avec lignes horizontales et verticales"
+      },
+      "numeric_density": {
+        "min": 0.2,
+        "max": 0.5,
+        "weight": 0.3,
+        "description": "Forte densité de chiffres"
+      },
+      "vertical_alignment": {
+        "weight": 0.2,
+        "description": "Alignement vertical des montants"
+      },
+      "aspect_ratio": {
+        "min": 0.65,
+        "max": 0.85,
+        "weight": 0.1,
+        "description": "Format A4 ou similaire"
+      }
+    },
+    "keywords": ["solde", "débit", "crédit", "compte", "banque", "opération"]
+  },
+  "facture_electricite": {
+    "description": "Facture d'électricité (Différentes Régies)",
+    "features": {
+      "consumption_table": {
+        "required": true,
+        "weight": 0.3,
+        "description": "Tableau de consommation"
+      },
+      "kwh_units": {
+        "required": true,
+        "weight": 0.3,
+        "description": "Présence d'unités kWh"
+      },
+      "billing_period": {
+        "weight": 0.2,
+        "description": "Période de facturation"
+      },
+      "tabular_structure": {
+        "weight": 0.2,
+        "description": "Structure tabulaire modérée"
+      }
+    },
+    "keywords": ["kWh", "électricité", "puissance", "abonnement", "consommation"]
+  },
+  "facture_eau": {
+    "description": "Facture d'eau (Différentes Régies)",
+    "features": {
+      "consumption_table": {
+        "required": true,
+        "weight": 0.3,
+        "description": "Tableau de consommation eau"
+      },
+      "water_units": {
+        "required": true,
+        "weight": 0.3,
+        "description": "Présence d'unités m³"
+      },
+      "billing_period": {
+        "weight": 0.2,
+        "description": "Période de facturation"
+      },
+      "tabular_structure": {
+        "weight": 0.2,
+        "description": "Structure tabulaire modérée"
+      }
+    },
+    "keywords": ["m³", "eau", "consommation", "index", "facture eau"]
+  },
+  "document_employeur": {
+    "description": "Document employeur (Bulletins de paie + Attestations de Travail)",
+    "features": {
+      "company_header": {
+        "weight": 0.3,
+        "description": "En-tête d'entreprise"
+      },
+      "signature_zone": {
+        "weight": 0.3,
+        "description": "Zone de signature"
+      },
+      "salary_mentions": {
+        "required": true,
+        "weight": 0.2,
+        "description": "Mentions salariales"
+      },
+      "contract_structure": {
+        "weight": 0.2,
+        "description": "Structure de contrat"
+      }
+    },
+    "keywords": ["salaire", "employeur", "embauche", "cotisations", "bulletin"]
+  }
+}
+
