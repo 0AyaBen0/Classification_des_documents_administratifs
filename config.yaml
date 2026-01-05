@@ -42,10 +42,11 @@ training:
   save_best_only: true
 
 # Configuration de la fusion
+# Poids optimisés pour améliorer les scores de confidence
 fusion:
-  cv_weight: 0.5
-  nlp_weight: 0.5
-  gabarits_weight: 0.3
+  cv_weight: 0.4
+  nlp_weight: 0.4
+  gabarits_weight: 0.4  # Augmenté pour compenser la correction du facteur 0.3
   confidence_threshold: 0.8
   rejection_threshold: 0.5
 

@@ -49,9 +49,9 @@ with tab1:
     st.header("Upload et Classification")
     
     uploaded_file = st.file_uploader(
-        "Choisir un fichier PDF",
-        type=['pdf'],
-        help="Téléchargez un fichier PDF à classifier"
+        "Choisir un fichier PDF ou une image",
+        type=['pdf', 'png', 'jpg', 'jpeg'],
+        help="Téléchargez un fichier PDF ou une image (PNG/JPG) à classifier"
     )
     
     if uploaded_file is not None:
@@ -66,62 +66,131 @@ with tab1:
         # Classifier
         with st.spinner("Classification en cours..."):
             try:
-                results = classifier.classify_pdf(str(temp_path))
+                # Détecter le type de fichier
+                file_ext = temp_path.suffix.lower()
+                
+                if file_ext == '.pdf':
+                    results = classifier.classify_pdf(str(temp_path))
+                    is_pdf = True
+                elif file_ext in ['.png', '.jpg', '.jpeg']:
+                    # Image unique
+                    result = classifier.classify_image(str(temp_path))
+                    results = [result]  # Convertir en liste pour compatibilité
+                    is_pdf = False
+                else:
+                    st.error(f"Format de fichier non supporté: {file_ext}")
+                    results = []
+                    is_pdf = False
                 
                 if results:
-                    result = results[0]  # Prendre la première page
+                    num_pages = len(results)
+                    st.success(f"✅ PDF classifié avec succès ({num_pages} page{'s' if num_pages > 1 else ''})")
                     
-                    # Afficher les résultats
-                    col1, col2, col3 = st.columns(3)
+                    # Résumé global si plusieurs pages
+                    if num_pages > 1:
+                        st.subheader("📊 Résumé du PDF")
+                        summary_data = []
+                        for i, result in enumerate(results, 1):
+                            if "error" not in result:
+                                summary_data.append({
+                                    "Page": i,
+                                    "Classe": result.get("predicted_class", "N/A"),
+                                    "Confiance": result.get("confidence", 0.0),
+                                    "Stratégie": result.get("strategy", "N/A")
+                                })
+                        
+                        if summary_data:
+                            df_summary = pd.DataFrame(summary_data)
+                            st.dataframe(df_summary, use_container_width=True)
+                            
+                            # Graphique des classes par page
+                            fig_summary = px.bar(
+                                df_summary, 
+                                x="Page", 
+                                y="Confiance",
+                                color="Classe",
+                                title="Classification par Page",
+                                labels={"Confiance": "Confiance (%)", "Page": "Numéro de Page"}
+                            )
+                            st.plotly_chart(fig_summary, use_container_width=True)
                     
-                    with col1:
-                        st.metric("Classe Prédite", result.get("predicted_class", "N/A"))
+                    # Afficher les détails pour chaque page
+                    st.subheader("📄 Détails par Page")
                     
-                    with col2:
-                        confidence = result.get("confidence", 0.0)
-                        st.metric("Confiance", f"{confidence:.2%}")
+                    # Créer des onglets pour chaque page
+                    if num_pages > 1:
+                        page_tabs = st.tabs([f"Page {i+1}" for i in range(num_pages)])
+                    else:
+                        page_tabs = [st.container()]
                     
-                    with col3:
-                        rejection = result.get("rejection_score", 0.0)
-                        st.metric("Score de Rejet", f"{rejection:.2%}")
+                    for page_idx, (result, tab) in enumerate(zip(results, page_tabs)):
+                        with tab:
+                            if "error" in result:
+                                st.error(f"❌ Erreur sur la page {page_idx + 1}: {result.get('error', 'Erreur inconnue')}")
+                            else:
+                                st.markdown(f"### Page {page_idx + 1}")
+                                
+                                # Métriques principales
+                                col1, col2, col3 = st.columns(3)
+                                
+                                with col1:
+                                    predicted_class = result.get("predicted_class", "N/A")
+                                    st.metric("Classe Prédite", predicted_class)
+                                
+                                with col2:
+                                    confidence = result.get("confidence", 0.0)
+                                    st.metric("Confiance", f"{confidence:.2%}")
+                                
+                                with col3:
+                                    rejection = result.get("rejection_score", 0.0)
+                                    st.metric("Score de Rejet", f"{rejection:.2%}")
+                                
+                                # Détails
+                                st.markdown("#### Détails de la Classification")
+                                
+                                # Scores par méthode
+                                col1, col2 = st.columns(2)
+                                
+                                with col1:
+                                    st.write("**Computer Vision**")
+                                    cv_info = result.get("cv", {})
+                                    cv_class = cv_info.get('class', 'N/A')
+                                    cv_conf = cv_info.get('confidence', 0.0)
+                                    st.write(f"- Classe: {cv_class}")
+                                    st.write(f"- Confiance: {cv_conf:.2%}")
+                                
+                                with col2:
+                                    st.write("**NLP**")
+                                    nlp_info = result.get("nlp", {})
+                                    nlp_class = nlp_info.get('class', 'N/A')
+                                    nlp_conf = nlp_info.get('confidence', 0.0)
+                                    st.write(f"- Classe: {nlp_class}")
+                                    st.write(f"- Confiance: {nlp_conf:.2%}")
+                                
+                                # Scores Gabarits
+                                st.write("**Scores Gabarits**")
+                                gabarits_scores = result.get("gabarits_scores", {})
+                                if gabarits_scores:
+                                    df_gabarits = pd.DataFrame([
+                                        {"Famille": k, "Score": v}
+                                        for k, v in gabarits_scores.items()
+                                    ])
+                                    fig = px.bar(
+                                        df_gabarits, 
+                                        x="Famille", 
+                                        y="Score", 
+                                        title=f"Scores par Famille - Page {page_idx + 1}"
+                                    )
+                                    st.plotly_chart(fig, use_container_width=True)
+                                
+                                # Stratégie utilisée
+                                strategy = result.get("strategy", "N/A")
+                                st.info(f"**Stratégie de fusion:** {strategy}")
                     
-                    # Détails
-                    st.subheader("Détails de la Classification")
-                    
-                    # Scores par méthode
-                    col1, col2 = st.columns(2)
-                    
-                    with col1:
-                        st.write("**Computer Vision**")
-                        cv_info = result.get("cv", {})
-                        st.write(f"- Classe: {cv_info.get('class', 'N/A')}")
-                        st.write(f"- Confiance: {cv_info.get('confidence', 0.0):.2%}")
-                    
-                    with col2:
-                        st.write("**NLP**")
-                        nlp_info = result.get("nlp", {})
-                        st.write(f"- Classe: {nlp_info.get('class', 'N/A')}")
-                        st.write(f"- Confiance: {nlp_info.get('confidence', 0.0):.2%}")
-                    
-                    # Scores Gabarits
-                    st.write("**Scores Gabarits**")
-                    gabarits_scores = result.get("gabarits_scores", {})
-                    if gabarits_scores:
-                        df_gabarits = pd.DataFrame([
-                            {"Famille": k, "Score": v}
-                            for k, v in gabarits_scores.items()
-                        ])
-                        fig = px.bar(df_gabarits, x="Famille", y="Score", title="Scores par Famille")
-                        st.plotly_chart(fig, use_container_width=True)
-                    
-                    # Stratégie utilisée
-                    strategy = result.get("strategy", "N/A")
-                    st.info(f"**Stratégie de fusion:** {strategy}")
-                    
-                    # Télécharger le résultat JSON
-                    result_json = json.dumps(result, indent=2, ensure_ascii=False)
+                    # Télécharger le résultat JSON complet (toutes les pages)
+                    result_json = json.dumps(results, indent=2, ensure_ascii=False)
                     st.download_button(
-                        label="Télécharger le résultat JSON",
+                        label=f"📥 Télécharger le résultat JSON ({num_pages} page{'s' if num_pages > 1 else ''})",
                         data=result_json,
                         file_name=f"result_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
                         mime="application/json"
@@ -171,6 +240,6 @@ with tab3:
     
     ### Auteurs
     
-    Équipe INDIA-S5 - Pr. CHEFIRA
+    Équipe INDIA-S5 - assia-aya-khaoula
     """)
 

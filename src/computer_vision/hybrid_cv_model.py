@@ -196,6 +196,25 @@ class LightHybridCVModel(nn.Module):
         logits = self.classifier(fused)
         
         return logits
+    
+    def predict(self, image: torch.Tensor, gabarit_features: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
+        """
+        Prédiction avec probabilités
+        
+        Args:
+            image: Tensor d'image [batch_size, 3, H, W]
+            gabarit_features: Tensor de features gabarits [batch_size, gabarit_features_dim]
+            
+        Returns:
+            Tuple (probabilités, classes prédites)
+        """
+        self.eval()
+        with torch.no_grad():
+            logits = self.forward(image, gabarit_features)
+            probs = torch.softmax(logits, dim=1)
+            preds = torch.argmax(probs, dim=1)
+        
+        return probs, preds
 
 
 if __name__ == "__main__":

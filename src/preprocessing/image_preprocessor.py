@@ -30,10 +30,41 @@ class ImagePreprocessor:
         Returns:
             Image débruitée
         """
-        if len(image.shape) == 3:
-            return cv2.fastNlMeansDenoisingColored(image, None, 10, 10, 7, 21)
-        else:
-            return cv2.fastNlMeansDenoising(image, None, 10, 7, 21)
+        try:
+            if image is None or image.size == 0:
+                logger.warning("Image vide dans denoise, retour de l'image originale")
+                return image
+            
+            # Vérifier que l'image est valide
+            if not isinstance(image, np.ndarray):
+                logger.warning("Image n'est pas un numpy array, retour de l'image originale")
+                return image
+            
+            # Vérifier les dimensions
+            if len(image.shape) == 3:
+                # Image couleur
+                if image.shape[2] == 3:
+                    try:
+                        return cv2.fastNlMeansDenoisingColored(image, None, 10, 10, 7, 21)
+                    except cv2.error as e:
+                        logger.warning(f"Erreur cv2.fastNlMeansDenoisingColored: {e}, retour de l'image originale")
+                        return image
+                else:
+                    logger.warning(f"Image couleur avec {image.shape[2]} canaux, retour de l'image originale")
+                    return image
+            elif len(image.shape) == 2:
+                # Image en niveaux de gris
+                try:
+                    return cv2.fastNlMeansDenoising(image, None, 10, 7, 21)
+                except cv2.error as e:
+                    logger.warning(f"Erreur cv2.fastNlMeansDenoising: {e}, retour de l'image originale")
+                    return image
+            else:
+                logger.warning(f"Image avec shape invalide {image.shape}, retour de l'image originale")
+                return image
+        except Exception as e:
+            logger.warning(f"Erreur lors du débruitage: {e}, retour de l'image originale")
+            return image
     
     def enhance_contrast(self, image: np.ndarray) -> np.ndarray:
         """
@@ -84,11 +115,20 @@ class ImagePreprocessor:
             return image
         
         # Calculer l'angle moyen
+        # cv2.HoughLines retourne un tableau de shape (N, 1, 2)
+        # Chaque ligne est un tableau [[rho, theta]]
         angles = []
-        for rho, theta in lines[:20]:  # Prendre les 20 premières lignes
-            angle = (theta * 180 / np.pi) - 90
-            if -45 < angle < 45:
-                angles.append(angle)
+        try:
+            for line in lines[:20]:  # Prendre les 20 premières lignes
+                # line est de shape (1, 2), donc line[0] donne [rho, theta]
+                if line is not None and len(line) > 0 and len(line[0]) >= 2:
+                    rho, theta = line[0][0], line[0][1]
+                    angle = (theta * 180 / np.pi) - 90
+                    if -45 < angle < 45:
+                        angles.append(angle)
+        except Exception as e:
+            logger.warning(f"Erreur lors du calcul des angles dans deskew: {e}")
+            return image
         
         if len(angles) == 0:
             return image
@@ -204,7 +244,7 @@ class ImagePreprocessor:
     
     def preprocess_for_classification(self, image: np.ndarray, target_size: Tuple[int, int] = (224, 224)) -> np.ndarray:
         """
-        Prétraitement optimisé pour classification
+        Prétraitement optimisé pour classification (version simplifiée et robuste)
         
         Args:
             image: Image en numpy array
@@ -213,19 +253,52 @@ class ImagePreprocessor:
         Returns:
             Image prétraitée
         """
-        # Débruitage léger
-        image = self.denoise(image)
-        
-        # Amélioration du contraste
-        image = self.enhance_contrast(image)
-        
-        # Redressement
-        image = self.deskew(image)
-        
-        # Redimensionnement
-        image = self.resize(image, target_size, keep_aspect=True)
-        
-        return image
+        try:
+            if image is None or image.size == 0:
+                logger.warning("Image vide dans preprocess_for_classification")
+                return np.zeros((target_size[1], target_size[0], 3), dtype=np.uint8)
+            
+            # S'assurer que l'image est en uint8
+            if image.dtype != np.uint8:
+                if image.max() <= 1.0:
+                    image = (image * 255).astype(np.uint8)
+                else:
+                    image = image.astype(np.uint8)
+            
+            # Redimensionnement d'abord (plus rapide et moins d'erreurs)
+            try:
+                image = cv2.resize(image, target_size)
+            except Exception as e:
+                logger.warning(f"Erreur lors du redimensionnement: {e}")
+                # Fallback: créer une image noire
+                return np.zeros((target_size[1], target_size[0], 3), dtype=np.uint8)
+            
+            # Amélioration du contraste (optionnel mais utile)
+            try:
+                image = self.enhance_contrast(image)
+            except Exception as e:
+                logger.debug(f"Erreur lors de l'amélioration du contraste: {e}, on continue")
+            
+            # Redressement (optionnel, peut être désactivé si problématique)
+            try:
+                image = self.deskew(image)
+            except Exception as e:
+                logger.debug(f"Erreur lors du redressement: {e}, on continue")
+            
+            # S'assurer que l'image finale est de la bonne taille
+            if image.shape[:2] != (target_size[1], target_size[0]):
+                image = cv2.resize(image, target_size)
+            
+            return image
+        except Exception as e:
+            logger.error(f"Erreur critique dans preprocess_for_classification: {e}")
+            # Retourner une image noire de la bonne taille si tout échoue
+            try:
+                if image is not None and image.size > 0:
+                    return cv2.resize(image, target_size)
+            except:
+                pass
+            return np.zeros((target_size[1], target_size[0], 3), dtype=np.uint8)
     
     def process_image_file(
         self,
