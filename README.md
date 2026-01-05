@@ -128,7 +128,4 @@ Classification_des_documents_administratifs/
 └── README.md           # Documentation
 ```
 
-## Auteurs
-
-Équipe INDIA-S5 - Pr. CHEFIRA
 
