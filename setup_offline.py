@@ -9,7 +9,7 @@ from pathlib import Path
 # Ajouter le dossier src au path
 sys.path.append(str(Path(__file__).parent / "src"))
 
-from offline_manager import OfflineModelManager
+from src.offline_manager import OfflineModelManager
 import logging
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
