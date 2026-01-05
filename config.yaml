@@ -1,0 +1,65 @@
+# Configuration globale du projet
+
+# Chemins des données
+paths:
+  raw_pdfs: "data/raw_pdfs"
+  images: "data/images"
+  preprocessed_images: "data/preprocessed_images"
+  models: "models"
+  output: "data/output"
+
+# Classes de documents
+classes:
+  - identite
+  - releve_bancaire
+  - facture_electricite
+  - facture_eau
+  - document_employeur
+
+# Configuration des modèles
+models:
+  cv:
+    backbone: "resnet50"
+    input_size: [224, 224]
+    batch_size: 32
+    learning_rate: 0.0001
+    
+  nlp:
+    model_name: "camembert-base"
+    max_length: 512
+    batch_size: 16
+    
+  gabarits:
+    config_file: "models/gabarits/gabarits_config.json"
+
+# Configuration de l'entraînement
+training:
+  train_split: 0.7
+  val_split: 0.15
+  test_split: 0.15
+  epochs: 50
+  early_stopping_patience: 10
+  save_best_only: true
+
+# Configuration de la fusion
+# Poids optimisés pour améliorer les scores de confidence
+fusion:
+  cv_weight: 0.4
+  nlp_weight: 0.4
+  gabarits_weight: 0.4  # Augmenté pour compenser la correction du facteur 0.3
+  confidence_threshold: 0.8
+  rejection_threshold: 0.5
+
+# Configuration OCR
+ocr:
+  language: "fra"
+  psm: 6
+  oem: 3
+  preprocessing: true
+
+# Configuration du pipeline
+pipeline:
+  batch_size: 10
+  num_workers: 4
+  timeout: 300
+

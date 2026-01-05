@@ -1,0 +1,9 @@
+{
+  "resnet50.pth": {
+    "checksum": "d5af32b9017bb842389464cc1f2a46ec",
+    "metadata": {
+      "architecture": "resnet50"
+    },
+    "path": "models\\cv\\resnet50.pth"
+  }
+}

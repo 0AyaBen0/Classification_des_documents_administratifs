@@ -1,0 +1,19 @@
+# Configuration des seuils de classification optimisés
+# Généré automatiquement par optimize_thresholds.py
+
+# Seuils recommandés (mode équilibré)
+rejection_threshold: 0.600
+confidence_threshold: 0.550
+
+# Explication:
+# - rejection_threshold: Seuil pour le score de rejet (0.0-1.0)
+#   Plus bas = plus strict = plus d'images en vérification
+#   Plus haut = plus permissif = moins d'images en vérification
+#
+# - confidence_threshold: Seuil pour la confiance (0.0-1.0)
+#   Plus haut = plus strict = besoin de plus de confiance
+#   Plus bas = plus permissif = accepte moins de confiance
+
+# Pour ajuster:
+# - Si trop d'images dans 'a_verifier': augmentez rejection_threshold ou baissez confidence_threshold
+# - Si trop d'erreurs: baissez rejection_threshold ou augmentez confidence_threshold
