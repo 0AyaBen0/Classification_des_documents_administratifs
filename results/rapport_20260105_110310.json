@@ -1,0 +1,4462 @@
+[
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.32823041637602096,
+    "rejection_score": 0.6503928745316606,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22966162860393524
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.17800000000000002
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5421504730786515,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\1.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\10_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.320156279416931,
+    "rejection_score": 0.6628179390719353,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22889605164527893
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7476650659450369,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\10.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\10_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4443435714558152,
+    "rejection_score": 0.47654141760063684,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.21798668801784515
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.0
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6125183254601726,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\10.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\11.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3192798180933937,
+    "rejection_score": 0.6644838094694643,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.227014422416687
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7556269773716415,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\11.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\12.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4024433777391715,
+    "rejection_score": 0.5388179407572863,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22344492375850677
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.8275584947172959,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\12.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\13.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3192188440346509,
+    "rejection_score": 0.6648242949453869,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22561423480510712
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.12200000000000001
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7257953764805096,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\13.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\14.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2951145391086153,
+    "rejection_score": 0.8098827848492237,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2251167595386505
+    },
+    "nlp": {
+      "class": "document_employeur",
+      "confidence": 0.17800000000000002
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7188293516746452,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\14.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\15.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.30392994387248257,
+    "rejection_score": 0.7916617856294366,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2253296673297882
+    },
+    "nlp": {
+      "class": "document_employeur",
+      "confidence": 0.14800000000000002
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6169694712176984,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\15.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\16.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.31820174479256425,
+    "rejection_score": 0.666090358349391,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22720080614089966
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.14
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.554752621191895,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\16.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\17.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3138534761708896,
+    "rejection_score": 0.6725495304588633,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22808505594730377
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.11833333333333335
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6249203390678112,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\17.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\18.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.32468834254128104,
+    "rejection_score": 0.6562116068992494,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2272796481847763
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.14
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.4860372042715384,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\18.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\19.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3397925500475775,
+    "rejection_score": 0.6335777161334614,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22549188137054443
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.4829808831109646,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\19.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3357702585752353,
+    "rejection_score": 0.6398828836914047,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2244623750448227
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.12200000000000001
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5035098039215687,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\2.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\20.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2985062180055697,
+    "rejection_score": 0.7916860608643458,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2234843671321869
+    },
+    "nlp": {
+      "class": "document_employeur",
+      "confidence": 0.12200000000000001
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7299211048050865,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\20.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\3.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3190223333724704,
+    "rejection_score": 0.622985802890365,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2238365262746811
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.12200000000000001
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.5483476612112256,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\3.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\4.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.32893840039764305,
+    "rejection_score": 0.6500179265509821,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22579924762248993
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6219023920927507,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\4.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\5.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.30546178394086165,
+    "rejection_score": 0.7820732559741339,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22862014174461365
+    },
+    "nlp": {
+      "class": "document_employeur",
+      "confidence": 0.12200000000000001
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.633987392132978,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\6.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3034291752130475,
+    "rejection_score": 0.7120732758315245,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22479373216629028
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.14
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7179861880010805,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\6.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\7.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.29399523139407024,
+    "rejection_score": 0.8108270344748304,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22650910913944244
+    },
+    "nlp": {
+      "class": "document_employeur",
+      "confidence": 0.17800000000000002
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7407780980067227,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\7.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\8.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.29156836877613895,
+    "rejection_score": 0.8232319335686761,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22292789816856384
+    },
+    "nlp": {
+      "class": "document_employeur",
+      "confidence": 0.212
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7292757320787667,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\8.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\document_employeur\\9.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.32887490675520964,
+    "rejection_score": 0.6496433078741353,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22838672995567322
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6283549783549783,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\document_employeur\\9.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\1_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3408307132393184,
+    "rejection_score": 0.5653587872999974,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22576437890529633
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.25
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.5963062554551048,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\1.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\1_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.5321314035216648,
+    "rejection_score": 0.12216383943186104,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2289995551109314
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.6
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5096658944653529,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\1.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\10_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4121645825890542,
+    "rejection_score": 0.43533246287988114,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22828713059425354
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.29200000000000004
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6933129564995718,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\10.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\10_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.5270802516477014,
+    "rejection_score": 0.22771266004783905,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22304902970790863
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.33799999999999997
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6640633246807497,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\10.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\11_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.41303013925449167,
+    "rejection_score": 0.4413900110201572,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2264464646577835
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.25
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5859833726004302,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\11.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\11_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4100868200957856,
+    "rejection_score": 0.4540229918332649,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22324956953525543
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.212
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5280057095626178,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\11.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\12_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2963322381425408,
+    "rejection_score": 0.7453113846401925,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22359932959079742
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.4
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5520366390362219,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\12.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\12_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.29495310711723494,
+    "rejection_score": 0.7506227964311831,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.21987710893154144
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.29833333333333334
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6597053066010812,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\12.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\13_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4543211293437741,
+    "rejection_score": 0.33786655866607995,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22805657982826233
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.44199999999999995
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5077281692231489,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\13.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\13_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4403494759914739,
+    "rejection_score": 0.274217467375784,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22266513109207153
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.6
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.6125965622312309,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\13.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\13_page_3.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3777519388894175,
+    "rejection_score": 0.6250634049196171,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22345244884490967
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.26
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6603299011682672,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\13.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\13_page_4.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4444004428600116,
+    "rejection_score": 0.47645515116160464,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.21798697113990784
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.0
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6121110930118911,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\13.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\14_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.29787054207257274,
+    "rejection_score": 0.7392162325252923,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22721821069717407
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.19333333333333333
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.738731615308584,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\14.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\14_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.42381458971052893,
+    "rejection_score": 0.4186402514602654,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2300563007593155
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.27
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.514106756567252,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\14.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\15_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4143511069680912,
+    "rejection_score": 0.43008159308649363,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22510597109794617
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.30400000000000005
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6864729800341733,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\15.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\15_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.45588185378718804,
+    "rejection_score": 0.3213636239512969,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22142700850963593
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.5499999999999999
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6755560771715016,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\15.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\16_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4379975097698925,
+    "rejection_score": 0.37239151161164985,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22482134401798248
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.40800000000000003
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6228178372884562,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\16.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\16_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.6314867361816291,
+    "rejection_score": 0.0,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22563421726226807
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.6
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6620292368159374,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\16.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\16_page_3.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.5502319052270083,
+    "rejection_score": 0.16025482017417012,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2281259149312973
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.478
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6679996322732887,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\16.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\16_page_4.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4444406171468335,
+    "rejection_score": 0.47639423593031716,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2179870754480362
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.0
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6118233618233617,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\16.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\17_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.430539993403316,
+    "rejection_score": 0.3939530194801505,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22583721578121185
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.352
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5989037466743931,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\17.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\17_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.6309487087084931,
+    "rejection_score": 0.0,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22476157546043396
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.6
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6649180789003943,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\17.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\17_page_3.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.5118265813802871,
+    "rejection_score": 0.27142559440823844,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22855055332183838
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.25
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6664366569295611,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\17.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\17_page_4.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4444406171468335,
+    "rejection_score": 0.47639423593031716,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2179870754480362
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.0
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6118233618233617,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\17.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\18_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4250038307049037,
+    "rejection_score": 0.4019287093472229,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22313934564590454
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.366
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6874887606765799,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\18.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\18_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.5208176802736085,
+    "rejection_score": 0.14167711572551334,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22194503247737885
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.6
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6140191299007319,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\18.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\19_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4227921801267562,
+    "rejection_score": 0.4080790242158012,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22248905897140503
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.352
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6831212306695665,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\19.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\19_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.5208372144682455,
+    "rejection_score": 0.1417331919650019,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22121576964855194
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.6
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6125565730396231,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\19.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\2_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4184158312115506,
+    "rejection_score": 0.42463799420826964,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22742757201194763
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.29200000000000004
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6172219520023726,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\2.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\2_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.5269841921376189,
+    "rejection_score": 0.13078337043270805,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22794172167778015
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.6
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5602777554677132,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\2.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\20_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.29070528103732723,
+    "rejection_score": 0.7715817750507404,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2223561406135559
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.385
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6353809682775376,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\20.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\20_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.5206921637214382,
+    "rejection_score": 0.1417061675774448,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2234165519475937
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.6
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6178739438405214,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\20.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\21_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.30900379050215715,
+    "rejection_score": 0.686210729100115,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2264123111963272
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.29833333333333334
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5036429378883769,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\21.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\21_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.5253620785251538,
+    "rejection_score": 0.1340513659262783,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22306399047374725
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.6
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5687272525538482,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\21.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\3_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3499556973470769,
+    "rejection_score": 0.5400920583409097,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2267603725194931
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.316
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.6428162850523561,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\3.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\3_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.5242233062524577,
+    "rejection_score": 0.13565684561057956,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2253006249666214
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.6
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.584289826044819,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\3.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\4_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4224758279823086,
+    "rejection_score": 0.40864324741690605,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2224307358264923
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.352
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6867867964655889,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\4.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\4_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.5231096806577872,
+    "rejection_score": 0.13746161034103133,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22556014358997345
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.6
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5962968022281933,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\4.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\4_page_3.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.42009709359815234,
+    "rejection_score": 0.5132109869870716,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.21832165122032166
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.14800000000000002
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6118233618233617,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\4.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\4_page_4.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4444406171468335,
+    "rejection_score": 0.47639423593031716,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2179870754480362
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.0
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6118233618233617,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\4.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\5_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4371299377669401,
+    "rejection_score": 0.3767948971165789,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2256637066602707
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.388
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5949226518780982,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\5_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.37124328590538136,
+    "rejection_score": 0.4846265568081415,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22498735785484314
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.45999999999999996
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.6808560618000903,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\6_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4624210190561921,
+    "rejection_score": 0.30894680229928007,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22559532523155212
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.5499999999999999
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6062787441216111,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\6.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\6_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4276850730221372,
+    "rejection_score": 0.5016254623565032,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.21866977214813232
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6125183254601726,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\6.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\7_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4120514889162183,
+    "rejection_score": 0.44210494995232474,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.23187421262264252
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.25
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6093861493434627,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\7.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\7_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.32851509860745237,
+    "rejection_score": 0.6519222367893766,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.21891844272613525
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6125183254601726,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\7.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\7_page_3.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.5134070101681808,
+    "rejection_score": 0.15280811388440363,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.23107273876667023
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.6
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7089812285259358,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\7.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\7_page_4.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.32424119296610854,
+    "rejection_score": 0.6562780089947983,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.23070816695690155
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.695513841881751,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\7.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\8_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.45300872265045133,
+    "rejection_score": 0.33463592001557096,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2317967563867569
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.478
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5959223288600888,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\8.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\8_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.45249547655033745,
+    "rejection_score": 0.34136429934028234,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22643466293811798
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.44199999999999995
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5251523349454928,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\8.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\9_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.44992525315625415,
+    "rejection_score": 0.34291921410326676,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22989919781684875
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.45999999999999996
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5944227412616095,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\9.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_eau\\9_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4163830176501191,
+    "rejection_score": 0.4209208035977514,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22618384659290314
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.3380000000000001
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7385692891062098,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_eau\\9.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\1_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3109401289433982,
+    "rejection_score": 0.6773067852063183,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22619518637657166
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.225
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5516738448107825,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\1.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\1_page_2.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.399446679845489,
+    "rejection_score": 0.641092873867055,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22469854354858398
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.44199999999999995
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7405255763253972,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\1.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\1_page_3.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.3910644235023467,
+    "rejection_score": 0.6780488377155691,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.21928028762340546
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.33799999999999997
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6675802379182567,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\1.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\10_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.30776739853993745,
+    "rejection_score": 0.7951949037348035,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22552251815795898
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.17800000000000002
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5215346211561148,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\10.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\10_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.37474976015427963,
+    "rejection_score": 0.7196161081073724,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22036212682724
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.17800000000000002
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6856585493741576,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\10.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\11_page_1.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.30300854277324896,
+    "rejection_score": 0.8069428509761082,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22555075585842133
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.25
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5950304814244326,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\11.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\11_page_2.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.3431869807922574,
+    "rejection_score": 0.6889528226244414,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22704476118087769
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.562
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6652044520929782,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\11.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\12_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.43282824048822904,
+    "rejection_score": 0.3841135819516108,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22759966552257538
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.388
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6489861116824048,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\12.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\12_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4464302586997211,
+    "rejection_score": 0.3577910761974177,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22636070847511292
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.404
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5216182388115668,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\12.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\13_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4409989280272222,
+    "rejection_score": 0.36731331776047405,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22713810205459595
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.404
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5847588707298536,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\13.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\13_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.29172263148702715,
+    "rejection_score": 0.8223327933138226,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22578875720500946
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.212
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7341554786186045,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\13.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\14_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3048418342600111,
+    "rejection_score": 0.8066963086638989,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22920134663581848
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.212
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5324076575322063,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\14.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\14_page_2.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.30146434495408325,
+    "rejection_score": 0.798751838962083,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22723019123077393
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.29200000000000004
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7216993483880415,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\14.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\15_page_1.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.3337074874851911,
+    "rejection_score": 0.725496949141175,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22729797661304474
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.44199999999999995
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.559519547395595,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\15.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\15_page_2.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.41133247032596476,
+    "rejection_score": 0.5973905853473853,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2254151701927185
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.5599999999999999
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7942531844374436,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\15.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\15_page_3.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.30518503812737957,
+    "rejection_score": 0.8043505562829371,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22506330907344818
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.25
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5614826210919557,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\15.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\15_page_4.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3335210132664902,
+    "rejection_score": 0.5833715135861963,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22709576785564423
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.212
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.6063917129966293,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\15.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\16_page_1.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.3333829492279975,
+    "rejection_score": 0.7258475771739161,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2270490825176239
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.44199999999999995
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5646942587500053,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\16.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\16_page_2.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.41133247032596476,
+    "rejection_score": 0.5973905853473853,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2254151701927185
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.5599999999999999
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7942531844374436,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\16.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\16_page_3.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.30518503812737957,
+    "rejection_score": 0.8043505562829371,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22506330907344818
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.25
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5614826210919557,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\16.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\16_page_4.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3335210132664902,
+    "rejection_score": 0.5833715135861963,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22709576785564423
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.212
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.6063917129966293,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\16.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\17_page_1.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.3323269815503768,
+    "rejection_score": 0.7145446541682791,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22389374673366547
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.5
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7083718738436774,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\17.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\17_page_2.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.3892343749792563,
+    "rejection_score": 0.5224099541249538,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22772224247455597
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.6
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6320968258655835,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\17.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\2_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.46567734052558485,
+    "rejection_score": 0.30697460531805354,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22534257173538208
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.52
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5158898561581229,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\2.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\2_page_2.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.4083161294153955,
+    "rejection_score": 0.38254634088403605,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "releve_bancaire",
+      "confidence": 0.2217516303062439
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.6
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.533407811039944,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\2.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\3_page_1.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.3284418743909074,
+    "rejection_score": 0.7433229737558896,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22466419637203217
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.388
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5254461880872907,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\3.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\3_page_2.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.35272943126434064,
+    "rejection_score": 0.6752512990570857,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2218625247478485
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.5599999999999999
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5257333990593162,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\3.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\4_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.40427406465118104,
+    "rejection_score": 0.4622987685916461,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2317630797624588
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.212
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6143535672239353,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\4.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\4_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.30014000484615266,
+    "rejection_score": 0.8133258536457095,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22407354414463043
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.212
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5929726870022765,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\4.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\5_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.43255178943943745,
+    "rejection_score": 0.38465264125637,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2272663414478302
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.388
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6515722708718329,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\5_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4464302586997211,
+    "rejection_score": 0.3577910761974177,
+    "strategy": "accord_parfait",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22636070847511292
+    },
+    "nlp": {
+      "class": "facture_eau",
+      "confidence": 0.404
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5216182388115668,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\6_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3043030599097992,
+    "rejection_score": 0.807928465752226,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22682592272758484
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.212
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5348880113933842,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\6.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\6_page_2.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.3744130253131159,
+    "rejection_score": 0.7255830191457616,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22394505143165588
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.25
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6836357610648245,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\6.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\7_page_1.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.3064090004412021,
+    "rejection_score": 0.8036250163113512,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22756676375865936
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.25
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5393580304908417,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\7.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\7_page_2.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.3817981617409532,
+    "rejection_score": 0.7040586928723672,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22379828989505768
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.29200000000000004
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6801007884654883,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\7.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\8_page_1.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.3088888366933496,
+    "rejection_score": 0.8006369562562973,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2268722802400589
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.25
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.502201810516127,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\8.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\8_page_2.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.4021071138824163,
+    "rejection_score": 0.6803173579784635,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22373740375041962
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.29200000000000004
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.4819472188777838,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\8.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\9_page_1.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.3066607710886049,
+    "rejection_score": 0.8032914553290648,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22738143801689148
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.25
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5357011385603605,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\9.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\facture_electricite\\9_page_2.png",
+    "predicted_class": "facture_electricite",
+    "confidence": 0.37508561431610415,
+    "rejection_score": 0.7243437782435195,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22246913611888885
+    },
+    "nlp": {
+      "class": "facture_electricite",
+      "confidence": 0.25
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6785302417795536,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\facture_electricite\\9.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\1_page_1.png",
+    "predicted_class": "identite",
+    "confidence": 0.22708180497241678,
+    "rejection_score": 0.8618751413845366,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "releve_bancaire",
+      "confidence": 0.22620347142219543
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.7230693033085271,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\1.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\1_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.32563969437864915,
+    "rejection_score": 0.6542562479337671,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.23010745644569397
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6752548501038015,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\1.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\10_page_1.png",
+    "predicted_class": "releve_bancaire",
+    "confidence": 0.21527850314252314,
+    "rejection_score": 0.8795505198579721,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "releve_bancaire",
+      "confidence": 0.22982467710971832
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.12200000000000001
+    },
+    "gabarits_scores": {
+      "identite": 0.7506931382793451,
+      "releve_bancaire": 0.7774622313798071,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\10.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\10_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.25382204561956734,
+    "rejection_score": 0.8030069223213921,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22452829778194427
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.8396396085204374,
+      "releve_bancaire": 0.8074999259068377,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\10.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\11_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.25991855831241073,
+    "rejection_score": 0.7787149377366056,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2276419848203659
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.774594031618825,
+      "releve_bancaire": 0.7701832766456134,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\11.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\11_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3164776270570882,
+    "rejection_score": 0.6680777892663411,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.23083330690860748
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.8039577029422652,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\11.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\12_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2477262947707523,
+    "rejection_score": 0.8474775882364297,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22536838054656982
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.7397099010161786,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\12.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\12_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.32352255419577064,
+    "rejection_score": 0.6575385639617256,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22977519035339355
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7032292416217294,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\12.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\13_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.25340875813019187,
+    "rejection_score": 0.8408432714076984,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.223848357796669
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.6060035317673521,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\13.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\13_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.32584048163132706,
+    "rejection_score": 0.6548283349153846,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2252373844385147
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6618241065163227,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\13.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\14.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2538822351817645,
+    "rejection_score": 0.8204536362741887,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2246062159538269
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.9152568003688335,
+      "releve_bancaire": 0.7081167070566107,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\14.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\15_page_1.png",
+    "predicted_class": "releve_bancaire",
+    "confidence": 0.215290885255666,
+    "rejection_score": 0.8645855330703025,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "releve_bancaire",
+      "confidence": 0.2279539853334427
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.6883198541800691,
+      "releve_bancaire": 0.7530732906340627,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\15.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\15_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.32100198590585827,
+    "rejection_score": 0.6611040022055987,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.23131026327610016
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7413612300448418,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\15.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\16_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.31033687174495395,
+    "rejection_score": 0.6774125755470094,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2309279441833496
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.8935719760759216,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\16.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\16_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2611046645890252,
+    "rejection_score": 0.7606674776732464,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22797174751758575
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.7060970192690622,
+      "releve_bancaire": 0.8353138338043397,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\16.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\17_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2517773838645574,
+    "rejection_score": 0.8412802047839012,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.23167645931243896
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.6675510697220254,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\17.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\17_page_2.png",
+    "predicted_class": "identite",
+    "confidence": 0.22928547435222665,
+    "rejection_score": 0.8493747946101765,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "releve_bancaire",
+      "confidence": 0.22772584855556488
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.6798511434221604,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\17.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\18_page_1.png",
+    "predicted_class": "releve_bancaire",
+    "confidence": 0.20121729422871504,
+    "rejection_score": 0.9015857894275343,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "releve_bancaire",
+      "confidence": 0.22803720831871033
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.6977322856355114,
+      "releve_bancaire": 0.6738454557060649,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\18.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\18_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2675597954579873,
+    "rejection_score": 0.7649086576395969,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.23711314797401428
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.7691580124375823,
+      "releve_bancaire": 0.6485394092459039,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\18.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\19_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.26331149488702066,
+    "rejection_score": 0.766178959164674,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.23184791207313538
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.7453420335140765,
+      "releve_bancaire": 0.7502235830047461,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\19.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\19_page_2.png",
+    "predicted_class": "releve_bancaire",
+    "confidence": 0.2574617801579929,
+    "rejection_score": 0.8063207444816183,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "releve_bancaire",
+      "confidence": 0.2262192815542221
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7456903258876015,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\19.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\2_page_1.png",
+    "predicted_class": "releve_bancaire",
+    "confidence": 0.19713450890474396,
+    "rejection_score": 0.9285451769436341,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "releve_bancaire",
+      "confidence": 0.23101946711540222
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.7896539840088227,
+      "releve_bancaire": 0.6735551708970171,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\2.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\2_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.26584825896991354,
+    "rejection_score": 0.790218227020785,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2322043478488922
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.8604440461967343,
+      "releve_bancaire": 0.5498019276640909,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\2.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\20_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3320425568864322,
+    "rejection_score": 0.64487101314728,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22813042998313904
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5864149286369809,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\20.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\20_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.26300895251754697,
+    "rejection_score": 0.7845690354875078,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2355978637933731
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.8231577021587998,
+      "releve_bancaire": 0.6666666666666666,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\20.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\3_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2520812641096534,
+    "rejection_score": 0.8423967019978007,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22417911887168884
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.636613521394142,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\3.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\3_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.41974335943841984,
+    "rejection_score": 0.5120615736284478,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22551588714122772
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.684952423514515,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\3.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\4_page_1.png",
+    "predicted_class": "identite",
+    "confidence": 0.2141562873345075,
+    "rejection_score": 0.9084539631792705,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "releve_bancaire",
+      "confidence": 0.22664351761341095
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.9444511849874625,
+      "releve_bancaire": 0.8069587018804039,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\4.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\4_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3866508593274195,
+    "rejection_score": 0.5591937194933584,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.24042770266532898
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 1.0,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\4.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\5.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2964953088035069,
+    "rejection_score": 0.7894652393468983,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2188190072774887
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.7778465278465279,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\6_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.24676342716139146,
+    "rejection_score": 0.8489588257464576,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22380593419075012
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.7569621868231484,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\6.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\6_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.32553335719459203,
+    "rejection_score": 0.6546823468634176,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22863619029521942
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6734427596796692,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\6.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\7_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.25237448847899313,
+    "rejection_score": 0.8351147752383691,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.23589828610420227
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.9798684051672099,
+      "releve_bancaire": 0.6938206768884061,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\7.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\7_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.40166286478724805,
+    "rejection_score": 0.538165477259327,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.23171554505825043
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.8472481746773245,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\7.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\8_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2596502505655328,
+    "rejection_score": 0.7700379911906967,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22362841665744781
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.7336797365734612,
+      "releve_bancaire": 0.8166686779638261,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\8.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\8_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.24646406140213145,
+    "rejection_score": 0.848700983980175,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22700165212154388
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.7745530160342796,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\8.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\8_page_3.png",
+    "predicted_class": "identite",
+    "confidence": 0.2249616196099658,
+    "rejection_score": 0.8739019238499017,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "releve_bancaire",
+      "confidence": 0.22529125213623047
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.7648910799440122,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\8.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\8_page_4.png",
+    "predicted_class": "identite",
+    "confidence": 0.22646426780755194,
+    "rejection_score": 0.8653781299805535,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "releve_bancaire",
+      "confidence": 0.22782647609710693
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.7333553592943819,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\8.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\9_page_1.png",
+    "predicted_class": "releve_bancaire",
+    "confidence": 0.19694066820763512,
+    "rejection_score": 0.9303200420755291,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "releve_bancaire",
+      "confidence": 0.2346777319908142
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.796936556076341,
+      "releve_bancaire": 0.6709501677476656,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\9.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\9_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.34016893959150046,
+    "rejection_score": 0.6313705849834086,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.23421154916286469
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.4962828382025327,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\identite\\9.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3040476018377989,
+    "rejection_score": 0.6881458034596372,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22405757009983063
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.26
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.772040297977557,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\1.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\10.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3184142459211443,
+    "rejection_score": 0.6661831463157158,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.224845290184021
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7628104988546079,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\10.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\11_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.29306803710409646,
+    "rejection_score": 0.7600242083487582,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22127360105514526
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.225
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7567752243886189,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\11.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\11_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3011401502449925,
+    "rejection_score": 0.7215372402339725,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22067305445671082
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.19333333333333333
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6862438736451647,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\11.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\12_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3039600151074688,
+    "rejection_score": 0.7099703071255119,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22601647675037384
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.14
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.713991985822137,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\12.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\12_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3042568063356743,
+    "rejection_score": 0.7086142650867421,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22616472840309143
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.11833333333333335
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7315884841968795,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\12.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\13.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.31177537326897725,
+    "rejection_score": 0.676647964341284,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2226707637310028
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.29000000000000004
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6153411893643504,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\13.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\14.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.33654115823449543,
+    "rejection_score": 0.6383236099746126,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22654001414775848
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5256533894886523,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\14.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\15_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.29504794253708233,
+    "rejection_score": 0.7505046904932428,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22088207304477692
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.2983333333333334
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6604984597334116,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\15.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\15_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.30911585179965556,
+    "rejection_score": 0.6839520224968091,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22138965129852295
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.14
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6453690865942477,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\15.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\15_page_3.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3055988927613311,
+    "rejection_score": 0.7006379560303488,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2214072346687317
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.16500000000000004
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6620034155942409,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\15.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\15_page_4.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3125033620630679,
+    "rejection_score": 0.6753779011648625,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2236173301935196
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.16500000000000004
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5870782964313586,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\15.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\15_page_5.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.4443654354188333,
+    "rejection_score": 0.4764933367651396,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.21804656088352203
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.0
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6124383539493896,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 0.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\15.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\16_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.30455635510260926,
+    "rejection_score": 0.7075407229039506,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22718869149684906
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.14
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7091380360946035,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\16.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\16_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3190218487402382,
+    "rejection_score": 0.6649841328898148,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2264031022787094
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.14800000000000002
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6978453913770734,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\16.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\16_page_3.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3036213102069369,
+    "rejection_score": 0.7115426029302626,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22592045366764069
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.16500000000000004
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6937930499293736,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\16.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\17.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3243019488779205,
+    "rejection_score": 0.6573932882294012,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2239786982536316
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6797552433856988,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\17.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\18.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2967057093015498,
+    "rejection_score": 0.7451964203444156,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2286301553249359
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.225
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7254968191023542,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\18.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\19.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.32422491460723113,
+    "rejection_score": 0.6581915913739466,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22021320462226868
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.212
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.532438339923225,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\19.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\2_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.27954543732827564,
+    "rejection_score": 0.8268260037643785,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2298663854598999
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.475
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7148886351007857,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\2.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\2_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2849301428338411,
+    "rejection_score": 0.8008905693122678,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22844186425209045
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.38
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7289866241411057,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\2.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\20_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2442244052340864,
+    "rejection_score": 0.8191150165706728,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2201789915561676
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.2983333333333334
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.659055654487129,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\20.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\20_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.31061654360913765,
+    "rejection_score": 0.6787523360732851,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.220681831240654
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.30000000000000004
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6151217046924229,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\20.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\3_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.294121087797006,
+    "rejection_score": 0.755080362033118,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22142758965492249
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.2983333333333334
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6732330250053253,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\3.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\3_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.30657045260779553,
+    "rejection_score": 0.6976670195986597,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22620420157909393
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.16500000000000004
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.659611642557616,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\3.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\4.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.29163341224254746,
+    "rejection_score": 0.7684307021485304,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22620922327041626
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.26
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7513424922767208,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\4.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\5_page_1.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2924826486810421,
+    "rejection_score": 0.7640539231487954,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2251197099685669
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.26
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7382569719797991,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\5_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2946767349426515,
+    "rejection_score": 0.75403487128126,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22627487778663635
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.225
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7463217481877443,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\5_page_3.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2944530803249217,
+    "rejection_score": 0.7546283748379469,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22484904527664185
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.225
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7463268569231631,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\5_page_4.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2942744846056225,
+    "rejection_score": 0.7558409368389757,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22596997022628784
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.225
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7508014505043749,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\5_page_5.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.29462798130507645,
+    "rejection_score": 0.7540069213410573,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.225482776761055
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.225
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7453721687954986,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\5_page_6.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2947249214047761,
+    "rejection_score": 0.7536439567520258,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22577734291553497
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.225
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7447312684808898,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\5_page_7.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.29479535773337556,
+    "rejection_score": 0.7530654265024598,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2250293493270874
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.225
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.742366699286307,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\5_page_8.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.29415586495482515,
+    "rejection_score": 0.756164114451192,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22523854672908783
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.225
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7508542199532517,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\5_page_9.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2950017669015687,
+    "rejection_score": 0.7526014091074016,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22659997642040253
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.225
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.742865574016732,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\5_page_10.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2938836539504097,
+    "rejection_score": 0.7577260180226405,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22607266902923584
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.225
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7559561163457205,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\5.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\6.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3172710297657338,
+    "rejection_score": 0.668202853616808,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22324396669864655
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.25
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.587736654180551,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\6.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\7.png",
+    "predicted_class": "releve_bancaire",
+    "confidence": 0.23416310059802004,
+    "rejection_score": 0.8850068232861007,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.22511893510818481
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.6
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.6624593492736918,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\7.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\8.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.3226838738925885,
+    "rejection_score": 0.6592916012364854,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2271028310060501
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.11833333333333335
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.5275478794394103,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\8.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\releve_bancaire\\9.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.2858887970731012,
+    "rejection_score": 0.7942908932778867,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.2219521552324295
+    },
+    "nlp": {
+      "class": "releve_bancaire",
+      "confidence": 0.33999999999999997
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.7411256109292083,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    },
+    "pdf_path": "data\\raw_pdfs\\releve_bancaire\\9.pdf"
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\1_page_1.png",
+    "predicted_class": "identite",
+    "confidence": 0.22708180497241678,
+    "rejection_score": 0.8618751413845366,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "releve_bancaire",
+      "confidence": 0.22620347142219543
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 1.0,
+      "releve_bancaire": 0.7230693033085271,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    }
+  },
+  {
+    "image_path": "data\\raw_pdfs\\identite\\1_page_2.png",
+    "predicted_class": "facture_eau",
+    "confidence": 0.32563969437864915,
+    "rejection_score": 0.6542562479337671,
+    "strategy": "fusion_ponderee",
+    "cv": {
+      "class": "facture_eau",
+      "confidence": 0.23010745644569397
+    },
+    "nlp": {
+      "class": "identite",
+      "confidence": 0.1
+    },
+    "gabarits_scores": {
+      "identite": 0.0,
+      "releve_bancaire": 0.6752548501038015,
+      "facture_electricite": 1.0,
+      "facture_eau": 1.0,
+      "document_employeur": 1.0
+    }
+  }
+]

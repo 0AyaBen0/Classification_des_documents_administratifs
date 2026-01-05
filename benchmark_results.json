@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-01-05T10:03:25.505881",
+  "system": {
+    "cpu_count": 8,
+    "memory_total_gb": 11.88602066040039,
+    "cuda_available": true
+  },
+  "results": [
+    {
+      "component": "CV",
+      "model": "resnet50",
+      "device": "cuda",
+      "load_time": 1.6753556728363037,
+      "load_memory_mb": 727.33984375,
+      "avg_inference_time": 0.0072021961212158205,
+      "std_inference_time": 0.000335613930175499,
+      "inference_memory_mb": 103.12109375,
+      "num_runs": 10
+    },
+    {
+      "component": "NLP",
+      "model": "camembert-base",
+      "device": "cuda",
+      "load_time": 8.964781284332275,
+      "load_memory_mb": 805.42578125,
+      "avg_inference_time": 0.011825799942016602,
+      "std_inference_time": 0.001188603582615346,
+      "inference_memory_mb": 91.3984375,
+      "num_runs": 10
+    },
+    {
+      "component": "Gabarits",
+      "model": "DetectorGabarits",
+      "device": "cpu",
+      "avg_inference_time": 1.2334189414978027,
+      "std_inference_time": 0.10692190065365634,
+      "num_runs": 10
+    },
+    {
+      "component": "OCR",
+      "model": "Tesseract",
+      "device": "cpu",
+      "avg_inference_time": 1.249399757385254,
+      "std_inference_time": 0.07391702196304811,
+      "num_runs": 5
+    }
+  ]
+}

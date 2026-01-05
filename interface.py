@@ -14,7 +14,10 @@ import plotly.express as px
 # Ajouter le dossier src au path
 project_root = Path(__file__).parent
 src_path = project_root / "src"
-sys.path.insert(0, str(src_path))
+# Ensure project root is first so imports like `from main import ...` resolve
+sys.path.insert(0, str(project_root))
+# Also add `src` so internal modules can be imported as `src.xxx`
+sys.path.insert(1, str(src_path))
 
 from main import DocumentClassifier, CLASSES
 from src.utils.config_loader import load_config
@@ -43,7 +46,7 @@ def load_classifier(device, use_light):
 classifier = load_classifier(device, use_light)
 
 # Onglets
-tab1, tab2, tab3 = st.tabs(["📤 Upload", "📊 Statistiques", "ℹ️ À propos"])
+tab1, tab3 = st.tabs(["📤 Upload", "ℹ️ À propos"])
 
 with tab1:
     st.header("Upload et Classification")
@@ -205,11 +208,6 @@ with tab1:
                 # Nettoyer
                 if temp_path.exists():
                     temp_path.unlink()
-
-with tab2:
-    st.header("Statistiques")
-    st.info("Cette section affichera les statistiques de classification après traitement par lots")
-
 with tab3:
     st.header("À propos")
     st.markdown("""
